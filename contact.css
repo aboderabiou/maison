@@ -1,0 +1,101 @@
+body{
+    background-image: url(image.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.haut{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 19px;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+}
+.lien{
+    text-decoration: none;
+    color: black;
+}
+.corps{
+    text-align: center;
+    margin-top: 100px;
+}
+span{
+    font-size: 20px;
+}
+label{
+    font-size: 20px;
+}
+.contact{
+    text-align: center;
+    background-color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+textarea{
+    width: 250px;
+    height: 100px;
+    font-size: 15px;
+}
+div{
+    padding-top: 10px;
+}
+#nom{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#prenom{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#mail{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#phone{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#commentaire{
+    border-radius: 5px;
+}
+#envoye{
+    width: 90px;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    margin-top: 20px;
+    background-color: honeydew;
+    padding-top: 20px;
+    width: 100%;
+}
+.foot{
+    text-align: center;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.copy{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

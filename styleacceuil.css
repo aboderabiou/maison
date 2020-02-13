@@ -1,0 +1,129 @@
+body{
+    background-image: url(image5.webp);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.haut{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 19px;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+}
+.lien{
+    text-decoration: none;
+    color: black;
+}
+.centre{
+    padding-top: 300px;
+    text-align: center;
+    background-image: url(interieur.jpg);
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 375px;
+}
+h2{
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: grey 1px 2px;
+    color: whitesmoke;
+}
+p{
+    margin-top: -20px;
+    font-size: 25px;
+    color: white;
+    text-shadow: grey 1px 2px;
+}
+.bouton{
+    width: 200px;
+    height: 70px;
+    background-color: #D54054;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.achat{
+    width: 30px;
+    height: 30px;
+}
+.iconsearch{
+    width: 20px;
+    height: 20px;
+}
+.voir{
+    width: 250px;
+    height: 70px;
+    background-color: #D54054;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.titre{
+    margin-top: 100px;
+    background-color: whitesmoke;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+.annonces{
+    background-color: whitesmoke;
+}
+.image{
+    width: 500px;
+    height: 300px;
+}
+.a{
+    width: 500px;
+    margin-right: 25px;
+    text-align: center;
+    align-self: center;
+    box-shadow: rgb(170, 168, 168) 6px 6px;
+}
+.ligne1{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.preview{
+    font-weight: normal;
+    font-size: 20px;
+}
+footer{
+    bottom: 0px;
+    margin-top: 20px;
+    background-color: honeydew;
+    padding-top: 20px;
+}
+.foot{
+    text-align: center;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.copy{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+@media screen and (max-width: 1280px)
